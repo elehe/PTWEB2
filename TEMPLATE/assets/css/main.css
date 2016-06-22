@@ -59,11 +59,23 @@
 		-webkit-text-size-adjust: none;
 	}
 
+/* Moi */
+
+
+.rose{
+    text-align: center;
+    font-size: 30px;
+     padding: 20px;
+}
+
+
+
+
 /* Box Model */
 
 	*, *:before, *:after {
 		-moz-box-sizing: border-box;
-		-webkit-box-sizing: border-box;
+		-webkit-box-sizing:s border-box;
 		box-sizing: border-box;
 	}
 
@@ -77,11 +89,7 @@
 	.container.\31 25\25 {
 		width: 100%;
 		max-width: 1750px;
-		min-width: 1400px;
-	}
-
-	.container.\37 5\25 {
-		width: 1050px;
+owidth: 1050px;
 	}
 
 	.container.\35 0\25 {
@@ -1614,7 +1622,7 @@
 	}
 
 	header {
-		margin: 0 0 2em 0;
+		margin: 0 0 0 0;
 	}
 
 		header > p {
@@ -1710,14 +1718,15 @@
 		}
 
 		.image.avatar48 {
-			width: 48px;
-			height: 48px;
-			background: #f00;
+			width: 120px;
+			height: 120px;
 		}
 
 			.image.avatar48 img {
-				width: 48px;
-				height: 48px;
+				width: 135px;
+				height: 135px;
+                margin-top: -28px;
+                margin-left: -15px;
 			}
 
 		.image.fit {
@@ -1957,10 +1966,12 @@
 
 
 
-.icone {
+.icone1 {
     
-    padding: 0em 2em 0em 0em;
+   float: left;
 }
+
+
 
 	.icon {
 		text-decoration: none;
@@ -2042,6 +2053,7 @@
 			font-size: 30px;
 			line-height: 1em;
             font-family: qlassik;
+    
 		}
 
 		#logo p {
@@ -2050,9 +2062,9 @@
 			font-size:50px;
 			color: #3A3637;
             font-weight: bold;
-			line-height: 1.25em;
-			margin: 0.5em 0 0 0;
+			margin: 1.5em 1em 0em 1.5em;
             font-family: graphiste;
+            text-align: right;
 		}
 
 		#logo .image {
@@ -2136,10 +2148,9 @@
 .intro {
     position: absolute;
     top : 100px;
-    color: red;
     z-index: 1000;
     font-family: qlassik;
-    font-size: 28px;
+   
 }
 
 	#main {
@@ -2356,6 +2367,7 @@
 			}
 
 		/* Header */
+        
 
 			#header {
 				-moz-backface-visibility: hidden;
