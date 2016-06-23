@@ -66,6 +66,7 @@
     text-align: center;
     font-size: 30px;
     padding: 2em 2em -10em 2em;
+    font-family: qlassik;
 }
 
 
@@ -1717,6 +1718,14 @@ owidth: 1050px;
 			width: 100%;
 		}
 
+.roundedImage{
+    overflow:hidden;
+    -webkit-border-radius:110px;
+    -moz-border-radius:110px;
+    border-radius:110px;
+    width:200px;
+    height:200px;
+}
 		.image.avatar48 {
 			width: 120px;
 			height: 120px;
@@ -1744,6 +1753,28 @@ owidth: 1050px;
 			float: left;
 			margin: 0 2em 2em 0;
 		}
+
+     
+        .image {
+        
+        float: center;
+        }
+        .image img {
+        /* La transition s'applique à la fois sur la largeur et la hauteur, avec une durée d'une seconde. */
+        -webkit-transition: all 1s ease; /* Safari et Chrome */
+        -moz-transition: all 1s ease; /* Firefox */
+        -ms-transition: all 1s ease; /* Internet Explorer 9 */
+        -o-transition: all 1s ease; /* Opera */
+        transition: all 1s ease;
+        }
+        .image:hover img {
+        /* L'image est grossie de 25% */
+        -webkit-transform:scale(1.25); /* Safari et Chrome */
+        -moz-transform:scale(1.25); /* Firefox */
+        -ms-transform:scale(1.25); /* Internet Explorer 9 */
+        -o-transform:scale(1.25); /* Opera */
+        transform:scale(1.25);
+        }
 
 		.image.centered {
 			display: block;
@@ -2266,15 +2297,18 @@ owidth: 1050px;
 
 
 			#main > section.two {
-				background-color: #f5fafa;
+				background-color:  #DED8DC;
 			}
 
 			#main > section.three {
-				background-color: #ecf1f1;
+				background-color:  #DED8DC;
 			}
 
 			#main > section.four {
-				background-color: #e8edec;
+				background-color:  #DED8DC
+                    
+
+
 			}
 
 /* Wide */

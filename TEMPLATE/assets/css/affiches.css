@@ -1,0 +1,15 @@
+html {
+    background-image: url("../../images/banniere.jpg");
+    
+}
+
+.image {
+    
+    width: 200px;
+    text-align: center;
+}
+
+section {
+    
+    text-align: center;
+}
