@@ -65,7 +65,7 @@
 .rose{
     text-align: center;
     font-size: 30px;
-     padding: 20px;
+    padding: 2em 2em -10em 2em;
 }
 
 
@@ -1723,8 +1723,8 @@ owidth: 1050px;
 		}
 
 			.image.avatar48 img {
-				width: 135px;
-				height: 135px;
+				width: 150px;
+				height: 150px;
                 margin-top: -28px;
                 margin-left: -15px;
 			}
@@ -1969,11 +1969,49 @@ owidth: 1050px;
 .icone1 {
     
    float: left;
+    height: 36px;
+    weight: 36px;
+    
 }
 
+.icone2 {
+    
+    height: 90px;
+    weight: 90px;
+    margin: -2.4em 5em 0.5em -35em;
+}
+
+.icone3{
+    
+    height: 100px;
+    weight: 100px;
+    margin: -4.8em 2em 5em -20em;
+}
+
+.icone4 {
+    
+    height: 85px;
+    weight: 85px;
+    margin: -13em 2em 7.2em 2em;
+
+}
+
+.icone5 {
+    
+    height: 125px;
+    weight: 125px;
+    margin: -13em 2em 7.9em 25em;
+
+    
+}	
 
 
-	.icon {
+.iconespassions {
+    
+    margin: 0em 0em 0em 8em;
+}
+
+.icon {
 		text-decoration: none;
 	}
 
@@ -1991,7 +2029,22 @@ owidth: 1050px;
 
 		.icon > .label {
 			display: none;
+        
 		}
+
+
+
+
+.passions {
+    
+    background-image:  url("../../images/degrade1.png");
+    background-repeat: no-repeat;
+    margin: auto;
+    weight: 20px;
+    height: 10px;
+    
+}
+
 
 /* Header */
 
@@ -2197,9 +2250,19 @@ owidth: 1050px;
                 
 				height: 50vh;
 				background-image: url("../../images/photographies/rose.jpg");
-                opacity: 0.25;
+                opacity: 0.10;
 			}
 
+
+.telecharger {
+    
+    color:  #8b183f;
+    font-family: qlassik;
+    font-size: 30px;
+    font-weight: bold;  
+
+
+}
 
 
 			#main > section.two {
