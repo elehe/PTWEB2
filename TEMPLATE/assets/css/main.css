@@ -1694,6 +1694,7 @@ owidth: 1050px;
 
 	section, article {
 		margin-bottom: 3em;
+        background-color: #DED8DC;
 	}
 
 		section > :last-child,
@@ -1709,11 +1710,15 @@ owidth: 1050px;
 
 /* Tableau*/
 
-table
+table {
+    
+    background-color: #DED8DC
+}
 
 td {
     
     border: 1px solid #8b183f;
+
 }
 
 tr td {
