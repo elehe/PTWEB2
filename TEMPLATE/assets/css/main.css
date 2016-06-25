@@ -65,7 +65,7 @@
 .rose{
     text-align: center;
     font-size: 36px;
-    padding: 2em 2em -10em 2em;
+    padding: 2em 2em -10em -5em;
     font-family: qlassik;
 }
 
@@ -242,6 +242,7 @@ owidth: 1050px;
 		-moz-box-sizing: border-box;
 		-webkit-box-sizing: border-box;
 		box-sizing: border-box;
+       
 	}
 
 	.row > * {
@@ -1708,16 +1709,29 @@ owidth: 1050px;
 		}
 
 
+
+
 /* Tableau*/
 
-table {
+.tableau1 {
     
-    background-color: #DED8DC
+    background-color: #DED8DC; 
+     border-radius: 10px;
+    
+}
+    
+
+.table2 {
+    
+border: none;
+    
 }
 
 td {
     
-    border: 1px solid #8b183f;
+    border: solid #8b183f;
+   
+    
 
 }
 
@@ -1726,6 +1740,9 @@ tr td {
     text-align: justify;
     font-size: 20px;
     font-family: qlassik;
+  
+
+   
 }
 
 .competence1 {
@@ -1765,6 +1782,7 @@ tr td {
 .divtableau {
     
     margin: 1.5em 3em 1.5em 3em;
+     
 }
 
 /* Image */
@@ -1774,7 +1792,7 @@ tr td {
 		border: 0;
 	}
 
-		.image img {
+    .image img {
 			display: block;
 			width: 100%;
 		}
@@ -1935,7 +1953,7 @@ tr td {
 		form input[type="password"]:focus,
 		form select:focus,
 		form textarea:focus {
-			box-shadow: 0 0 2px 1px #8ebebc;
+			box-shadow: 0 0 2px 1px #8b183f;
 			background: #fff;
 		}
 
@@ -1944,10 +1962,12 @@ tr td {
 	form input[type="password"],
 	form select {
 		line-height: 1.25em;
+        font-family: qlassik;
 	}
 
 	form textarea {
 		min-height: 14em;
+        font-family: qlassik;
 	}
 
 	form .formerize-placeholder {
@@ -1973,6 +1993,28 @@ tr td {
 	form ::-moz-focus-inner {
 		border: 0;
 	}
+
+
+.coordonnees {
+    
+    float: right;
+    display: inline;
+}
+
+
+.coo1 {
+    
+    font-family: qlassik;
+    font-size: 18px;
+    font-weight: bold;
+    
+}
+
+.coo2 {
+    
+    font-family: qlassik;
+    font-size: 16px;
+}
 
 /* Table */
 
@@ -2008,6 +2050,8 @@ tr td {
 			table.default tfoot {
 				background: #eee;
 			}
+
+
 
 /* Button */
 
@@ -2093,14 +2137,17 @@ tr td {
     height: 100px;
     weight: 100px;
     margin: -4.8em 2em 5em -20em;
+    box-shadow: 6px 6px 6px black;
+    
 }
 
 .icone4 {
     
-    height: 85px;
-    weight: 85px;
-    margin: -13em 2em 7.2em 2em;
-
+    height: 100px;
+    weight: 100px;
+    margin: -13em 2em 6.7em 2em;
+    box-shadow: 6px 6px 6px black;
+   
 }
 
 .icone5 {
@@ -2315,7 +2362,12 @@ tr td {
 
 	#main {
 		margin-left: 375px;
+        background-color: #ded8dc;
 	}
+
+#top{
+	margin-bottom: 0;
+}
 
 		#main > section {
 			overflow: hidden;
@@ -2355,9 +2407,16 @@ tr td {
 			#main > section.one {
                 
 				height: 50vh;
-				background-image: url("../../images/photographies/rose.jpg");
+				background-image: url("../../images/photoscompressees/rose.jpg");
                 opacity: 0.10;
 			}
+
+
+.photomoi {
+    
+width: 300px;
+height: 300px;
+}
 
 
 .telecharger {
@@ -2380,7 +2439,8 @@ tr td {
 			}
 
 			#main > section.four {
-				background-color:  #DED8DC
+				background-color:  #DED8DC;
+                display: inline;
                     
 
 
