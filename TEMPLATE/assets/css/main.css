@@ -65,7 +65,7 @@
 .rose{
     text-align: center;
     font-size: 36px;
-    padding: 2em 2em -10em -5em;
+    padding: 2em 2em -5em -5em;
     font-family: qlassik;
 }
 
@@ -1619,6 +1619,13 @@ owidth: 1050px;
 				color:#3A3637;
 			}
 
+h7 {
+    
+    font-family: qlassik;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
 	h3 {
 		font-size: 1.5em;
 	}
@@ -2002,18 +2009,11 @@ tr td {
 }
 
 
-.coo1 {
-    
-    font-family: qlassik;
-    font-size: 18px;
-    font-weight: bold;
-    
-}
 
 .coo2 {
     
     font-family: qlassik;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 /* Table */
@@ -2414,8 +2414,8 @@ tr td {
 
 .photomoi {
     
-width: 300px;
-height: 300px;
+width: 500px;
+height: 500px;
 }
 
 
