@@ -1,6 +1,6 @@
 html {
     
-    background-color: #DED8DC;
+    background-image: url("../../images/banniere.jpg");
     
 }
 
@@ -14,13 +14,13 @@ html {
 
 table {
     
-    background-color: #DED8DC
+    background-color: #DED8DC;
         
 }
 
 td {
     
-    border: 1px solid #8b183f;
+    border: 2px solid #8b183f;
 
 }
 
